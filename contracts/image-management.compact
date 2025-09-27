@@ -1,0 +1,19 @@
+pragma language_version >= 0.16 && <= 0.17;
+import CompactStandardLibrary;
+
+export ledger images: Set<Bytes<32>>;
+export ledger access: Map<Bytes<32>, Set<Bytes<32>>>;
+
+constructor() {
+}
+
+export circuit addImage(hash: Bytes<32>, owner: Bytes<32>): [] {
+    images.insert(disclose(hash));
+    access.insert(disclose(hash), default<Set<Bytes<32>>>);
+    access.lookup(disclose(hash)).insert(disclose(owner));
+}
+
+export circuit grantAccess(hash: Bytes<32>, owner: Bytes<32>, newUser: Bytes<32>): [] {
+    assert(access.lookup(disclose(hash)).member(disclose(owner)), "Not Authorized");
+    access.lookup(disclose(hash)).insert(disclose(newUser));
+}
