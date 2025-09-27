@@ -45,6 +45,7 @@
 		"@midnight-ntwrk/midnight-js-node-zk-config-provider": "^2.0.2",
 		"@midnight-ntwrk/midnight-js-types": "^2.0.2",
 		"@midnight-ntwrk/midnight-js-utils": "^2.0.2",
-		"@pinata/sdk": "^2.1.0"
+		"@pinata/sdk": "^2.1.0",
+		"pinata": "^2.5.0"
 	}
 }
