@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.cjs",
+  "sourceRoot": "../../../",
+  "sources": ["image-management.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAMA;;;;;;;;;;MAGA,AAAA,QAIC;;;;;cAJuB,MAAe;cAAE,OAAgB;;;;;;;;;;;;;;;;;;;;;;;;;yCAAjC,MAAe,+BAAE,OAAgB;;;;;;;;;0CAAjC,MAAe;0CAAE,OAAgB;;;OAIxD;MAED,AAAA,WAGC;;;;;cAH0B,MAAe;cAAE,OAAgB;cAAE,SAAkB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;yCAArD,MAAe,+BAAE,OAAgB,+BAAE,SAAkB;;;;;;;;;6CAArD,MAAe;6CAAE,OAAgB;6CAAE,SAAkB;;;OAG/E;;;;;;GAXA;EADD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAHA;;;;;;;;;;uDAAqC;IACrC;;;;;;;;;;uDAAqD;;;;;;;GAGpD;EAED,AAAA,WAIC,4BAJuB,MAAe,EAAE,OAAgB;IACrD;;;;;;;;;;yGAAuB,MAAI;;;;;sDAArB;IACN;;;;;;;;;;yGAAuB,MAAI;;;;;;;sDAArB;IACN;;;;;;;;;;6EAAuB,MAAI;;;yGAAmB,OAAK;;;;;sDAA7C;;GACT;EAED,AAAA,cAGC,4BAH0B,MAAe,EAAE,OAAgB,EAAE,SAAkB;oDACrE;;;;;;;;;;;6HAAuB,MAAI;;;yJAAmB,OAAK;;;;uGAA7C;;IACb;;;;;;;;;;6EAAuB,MAAI;;;yGAAmB,SAAO;;;;;sDAA/C;;GACT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAfD;;;;;uCAAA;;;;;;;;;;;;;;;;0FAAqC;;;;;;uCAArC;;;;;;;;;;;;0FAAqC;;;;;;;;;;;;;;uCAArC;;;;;;;;;;;;;;;0FAAqC;;;;;;;;;KAAA;IACrC;;;;;uCAAA;;;;;;;;;;;;;;;;0FAAqD;;;;;;uCAArD;;;;;;;;;;;;0FAAqD;;;;;;;;;;;;;;uCAArD;;;;;;;;;;;;;;;0FAAqD;;;;;;;;;;;;;;0EAArD,KAAqD;;;;;;;;;2CAAhB;;;;;;;;;;;oHAArC,KAAqD;;;;;;;;8FAAF;;;;;;2CAAd;;;;;;;;;;;oHAArC,KAAqD;;;;8FAAF;;;;;;;;;;;;;;2CAAd;;;;;;;;;;;oHAArC,KAAqD;;;;;;;8FAAF;;;;;;yFAAnD,KAAqD;;;;;;KAAA;;;;;;;;;;;;;;"
+}
